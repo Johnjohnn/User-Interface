@@ -63,12 +63,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/*========== Your code starts here!========== */
 .container {
 background-color: purple;
 padding: 50px;
-box-shadow: 2px 5px 5px;
-
+box-shadow: 5px 5px 8px black;
 }
 .navigation a{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;	
@@ -107,7 +106,7 @@ font-size: 40px;
 color:white;
 font-size:40px;
 }
-/*second section*/
+/*==========second section==========*/
 
 .second-container {	
 background-image: linear-gradient(to Right,white,rgb(128, 0, 79));
@@ -125,15 +124,7 @@ color : black;
 text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px red;
 
 }
-/*Button*/
-.button {
-display: block;
-text-align: center;
-font-size:20px;
-margin-top: 60px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
+/*===========Button===========*/
 
 	
 .button {
@@ -143,12 +134,12 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	margin-top: 5em;
+	margin-top: 1em;
 	background-color: white;
-	border: 5px  solid black;
 	padding: 20px 20px;
 	margin-left: 19em;
 	margin-right: 19em;
+	margin-bottom: 5em;
 	transition: all 0.5s;
 	box-shadow: 5px 5px 8px black;
 	
@@ -157,7 +148,88 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	
 	font-weight: 900;
 	letter-spacing: 10px;
-	border: 7px solid red;
-	text-shadow: 5px 5px 8px;
+	border: 7px solid yellow;
+	text-shadow: 5px 5px 8px black;
 	background-color: red;
+
+}
+/*==========Third Section=========*/
+.img{	
+	width: 20%;	
+	margin-left: 40%;
+	display: block;
+	position: relative;
+	margin-top: 8em;
 	}
+	
+.box{
+margin-top: 5em;	
+display: inline-block;
+margin-bottom: 10em;
+width :50%;
+
+}
+.box h2 {
+margin-top: 25px;	
+text-shadow: 2px 2px 5px red;
+
+font-size: 50px;
+text-align: center;
+
+
+}
+.box p {
+text-align: center;
+font-size: 20px;
+line-height: 25px;
+
+
+}
+/*==========fourth section==========*/
+
+.third-box {
+display:inline-block;
+margin-bottom: 8em;
+line-height: 40px;
+
+}
+.third-box h2 {
+
+font-size:50px;
+text-shadow: 2px 2px 5px red;
+
+}
+.third-box p{
+width: 50%;
+display: inline-block;
+font-size: 35px;
+
+
+}
+.inside {
+margin-left: 50%;
+
+}
+.inside h2 {
+text-align: right;
+
+
+}
+/*==========Footer==========*/
+.last-container {
+display: block;
+text-align: center;
+font-size: 40px;
+background-color: purple;
+padding: 80px;
+border: solid 10px 5px black;
+}
+.last-container h2 {
+	font-size:50px;
+	text-shadow: 2px 2px 5px red;
+}
+.last-container span {
+
+font-size: 20px;
+
+}
